@@ -23,7 +23,7 @@
 .join-btn-holder {
     position: fixed;
     bottom: 61%;
-    left: 45%;
+    left: 30%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -41,7 +41,7 @@
     display: inline-block;
     outline: 0;
     border: 0;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 500;
     color: #fff;
     cursor: pointer;
@@ -55,6 +55,11 @@
 .btn:hover {
     background-color: #e6375a;
     background-image: none!important;
+}
+
+.open-sea-btn{
+    background:url("../images/buttons/Opensea.png") no-repeat;
+    object-fit: scale-down;
 }
 
 .fa {
@@ -85,8 +90,9 @@
     color: white;
 }
 .fa-opensea {
-    background: #00A8FF;
-    color: white;
+    background-color: #fff;
+    background:url("../images/buttons/Opensea.png") no-repeat;
+    object-fit: scale-down;
 }
 
 html { 
