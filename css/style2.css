@@ -1,0 +1,98 @@
+.container {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+}
+.wallet-btn-holder {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.social-btn-holder {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.join-btn-holder {
+    position: fixed;
+    bottom: 61%;
+    left: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.logo-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.btn {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#e052a0,#f15c41)!important;
+    border-radius: 3px;
+    padding: 16px 18px 15px;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn:hover {
+    background-color: #e6375a;
+    background-image: none!important;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-discord {
+    background: #7289DA;
+    color: white;
+}
+.fa-instagram {
+    background: #E1306C;
+    color: white;
+}
+.fa-opensea {
+    background: #00A8FF;
+    color: white;
+}
+
+html { 
+    background: url("../images/backround/RAW\ Backround.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
