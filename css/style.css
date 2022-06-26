@@ -19,7 +19,7 @@
 .social-btn-holder {
     position: fixed;
     top: 34px;
-    right: 20px;
+    left: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -27,7 +27,7 @@
 .join-btn-holder {
     position: fixed;
     bottom: 59%;
-    left: 30%;
+    left: 40%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -35,7 +35,7 @@
 .logo-container {
     position: fixed;
     top: 0px;
-    left: 0px;
+    right: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -45,7 +45,7 @@
     display: inline-block;
     outline: 0;
     border: 0;
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 500;
     color: #fff;
     cursor: pointer;
@@ -61,43 +61,24 @@
     background-image: none!important;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin-left: 4px;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.fa-discord {
-    background: #7289DA;
-    color: white;
-}
-.fa-instagram {
-    background: #E1306C;
-    color: white;
-}
-.fa-opensea {
-    background-color: #fff;
-    background:url("../images/buttons/Opensea.png") no-repeat;
-    object-fit: scale-down;
+html { 
+    background: url("../images/backround/Website\ lineup.jpg") no-repeat center center fixed; 
+    background-size: cover;
 }
 
-html { 
-    background: url("../images/backround/RAW\ Backround\ With\ Logo.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.img-size img{
+    width: 50px;
+    height: 50px;
+    margin-left: 4px;
+}
+
+.img-size-special img{
+    width: 70px;
+    height: 50px;
+    margin-left: 4px;
+}
+
+.img-size-logo img{
+    width: 400px;
+    height: 225px;
+}
